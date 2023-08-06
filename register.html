@@ -1,0 +1,152 @@
+<html>
+<head>
+	<title>Register form</title>
+</head>
+<style>
+    
+    
+  *{
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      
+      
+  }
+  body{
+      background: #000;
+      color: #FFF;
+  }
+  
+  form{
+      position: absolute;
+      top : 50%;
+      left : 50%;
+      transform:translate(-50%, -50%) ;
+      border: 2px solid #fff;
+      width: 450px;
+      height: 500px;
+      border-radius: 11px;
+      background: #0A0A0A;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      
+  }
+  form div{
+      margin :10px 10px;
+  }
+  
+  input{
+      border: 1px solid #777;
+      background : transparent;
+      width: 200px;
+      height:36px;
+      border-radius: 13px;
+      text-align: center;
+      font-size: 17px;
+      
+  }
+ button{
+       color:#31848f;
+       width: 100px;
+       aspect-ratio: 3/1;
+       background: transparent;
+       border-radius: 8px;
+       
+       
+  }
+  #form1{
+        font-style: italic;
+        text-align: center;
+        
+            
+    }
+    #button1{
+        margin-left: 70px;
+    }
+    #button2{
+        margin-left : 40px;
+    }
+    #box1{
+       width:30px;
+        margin-left: 20px;
+    }
+    #box2{
+        width: 30px;
+        margin-left:20px;
+        
+    }
+    
+    
+
+	    
+</style>
+<body>
+	<div class="container">
+	    
+		<form>
+		    <div>
+		   <label>
+		            
+	 <h1 id="form1"> <u>Register Form </u></h1>
+		                
+		    </label>
+		    </div>
+		    
+		    
+			<div>
+				<label>
+					<input type="text">
+					<span>Name</span>
+				</label>
+			</div>
+			
+			
+			<div>
+			    <label>
+			       <input type="text"> 
+			       <span>Email</span>
+			    </label>
+			</div>
+			
+			<div>
+				<label>
+					<input type="password">
+					<span>Password</span>
+				</label>
+			</div>
+			
+			
+			<div>
+				<label>
+					<input type="password">
+					<span>Confirm Password</span>
+				</label>
+			</div>
+			
+			
+			<div>
+				<label>
+					<input type="checkbox" id="box1">
+					<span >male</span>
+					</label>
+					</div>
+					
+				<div>
+				    <label>
+					<input type="checkbox" id="box2">
+					<span>female</span>
+				</label>
+			</div>
+			
+			
+			<div >
+			    <button type="button" id="button1">reset</button>
+				<button type="button" id="button2">Submit</button>
+			</div>
+			
+		</form>
+	</div>
+</body>
+</html>

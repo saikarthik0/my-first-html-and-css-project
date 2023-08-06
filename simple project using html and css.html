@@ -1,0 +1,96 @@
+<html >
+<head>
+   
+    <title>Calculator</title>
+</head>
+<style>
+    
+    *{
+        background: black;
+        cursor: pointer;
+      
+    }
+    
+    table{
+        border:1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        background: white;
+      
+        
+    }
+    input[type="button"]{
+        width:100%;
+        padding:20px 40px;
+        background: white;
+        color: green;
+        font-size : 24px;
+        font-weight: bold;
+        border: none;
+        border-radius:5px;
+    }
+    input[type="text"]{
+        padding: 20px 30px;
+        font-size: 24px;
+        color: solid white;
+        font-color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+    .input1{
+        background: orange;
+    }
+    h1{
+        color: white;
+        margin-left: 350px;
+        margin-top: 50px;
+        font-style: italic;
+        border:2px;
+    }
+    </style>
+<body>
+    <div>
+    <h1> CALCULATOR <h1>
+        </div>
+    <table>
+        <tr>
+            <td colspan ="3"><input type="text" plceholder="input" class="input1"></td>
+            <td ><input type="button" value="c" onclick ="clr()"/></td>
+            </tr>
+            
+            <tr>
+               <td ><input type="button" value="1" onclick ="dis('1')"/></td> 
+            <td ><input type="button" value="2" onclick ="dis('2')"/></td>
+            <td ><input type="button" value="3" onclick ="dis('3')"/></td>  
+            <td ><input type="button" value="/" onclick ="dis('/')"/></td>
+            </tr>
+            
+            <tr>
+                <td ><input type="button" value="4" onclick ="dis('4')"/></td>  
+                <td ><input type="button" value="5" onclick ="dis('5')"/></td> 
+                 <td ><input type="button" value="6" onclick ="dis('6')"/></td>
+                 <td ><input type="button" value="" onclick ="dis('')"/></td>
+             </tr>
+             
+             <tr>
+                 <td ><input type="button" value="7" onclick ="dis('7')"/></td> 
+                <td ><input type="button" value="8" onclick ="dis('8')"/></td>  
+                <td ><input type="button" value="9" onclick ="dis('9')"/></td>
+               <td ><input type="button" value="-" onclick ="dis('-')"/></td>
+              </tr>
+              
+              <tr>
+                 <td ><input type="button" value="0" onclick ="dis('0')"/></td>
+                <td ><input type="button" value="." onclick ="dis('.')"/></td>
+                <td ><input type="button" value="=" onclick ="dis('=')"/></td>
+                <td ><input type="button" value="+" onclick ="dis('+')"/></td>
+                </tr>
+                
+          </table>
+                 
+                 
+                       
+</body>
+</html>

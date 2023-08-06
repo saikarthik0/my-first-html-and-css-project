@@ -1,0 +1,88 @@
+
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+<style>
+    form{
+        position: absolute;
+      top : 50%;
+      left : 50%;
+      transform:translate(-50%, -50%) ;
+      border: 2px solid #fff;
+      width: 450px;
+      height: 500px;
+      border-radius: 11px;
+      background: #0A0A0A;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    input{
+      border: 1px solid #777;
+      background : transparent;
+      width: 200px;
+      height:36px;
+      border-radius: 13px;
+      text-align: center;
+      font-size: 17px;
+      
+  }
+  body{
+      background: #000;
+      color: #FFF;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      
+      
+  }
+  button{
+       color:#31848f;
+       width: 100px;
+       aspect-ratio: 3/1;
+       background: transparent;
+       border-radius: 8px;
+       
+       
+  }
+  #form1{
+        font-style: italic;
+        text-align: center;
+        margin-top: 80px;
+        
+            
+    }
+    #username{
+        margin :3px 90px;
+    }
+    #password{
+        margin :3px 90px;
+    }
+    #name{
+        margin :3px 50px;
+    }
+    #pass{
+        margin :3px 50px;
+    }
+    #log{
+        margin :10px 90px;
+    }
+    
+</style>
+<body>
+
+<h2 id="form1">Login Form</h2>
+
+<form action="/login" method="post">
+    <label for="username" id="name">Username:</label><br>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="password" id="pass">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Login" id="log">
+</form>
+
+</body>
+</html>
